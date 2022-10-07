@@ -13,6 +13,7 @@ export class Gedit extends Component {
   
   componentDidMount() {
     emailjs.init(userId);
+    console.log(userId)
   }
 
   sendMessage = async () => {
