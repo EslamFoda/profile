@@ -142,14 +142,6 @@ export class AboutEslam extends Component {
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
         </div>
-        <div className="my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex">
-          <iframe
-            src="https://github.com/sponsors/vivek9patel/button"
-            title="Sponsor eslam"
-            width={"100%"}
-            height={"100%"}
-          ></iframe>
-        </div>
       </>
     );
   };
@@ -218,20 +210,13 @@ function About() {
         <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
         <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
       </div>
-      <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
+      <ul className=" mt-4 mb-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
         <li className=" list-pc">
-          I'm a <span className=" font-medium">Graduate Student</span> currently
-          pursuing Computer Science. I've completed my 6 month SWE intern at{" "}
-          <u className=" cursor-pointer ">
-            {" "}
-            <a
-              href="https://en.wikipedia.org/wiki/HackerRank"
-              target={"_blank"}
-            >
-              HackerRank
-            </a>{" "}
-          </u>
-          , and now I'm looking for summer'23 internship opportunities! ( Hit me
+          I'm a <span className=" font-medium">self taught</span> front-end
+          developer I design and develop websites and web applications using
+          HTML, CSS and JavaScript. Experienced with mobile-first and responsive
+          web design, understanding of JavaScript frameworks like react , next js
+          ,I'm looking for better opportunities! ( Hit me
           up{" "}
           <a className="text-underline" href="mailto:eslaamFodaa@gmail.com">
             <u>@eslaamFodaa@gmail.com</u>
@@ -442,7 +427,7 @@ function Projects() {
     {
       name: "blogs Website ",
       date: "Dec 2020",
-      link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
+      link: "https://github.com/EslamFoda/blog-post",
       description: ["Blog post website using React & firebase"],
       domains: ["react", "javascript", "html", "css", "firebase"],
     },
@@ -476,7 +461,6 @@ function Projects() {
           <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
         </div>
       </div>
-      {/* <iframe src="https://github.com/sponsors/vivek9patel/card" title="Sponsor vivek9patel" className='my-4 w-5/6 md:w-3/4' ></iframe> */}
 
       {project_list.map((project, index) => {
         const projectNameFromLink = project.link.split("/");

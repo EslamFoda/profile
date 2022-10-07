@@ -1,8 +1,8 @@
 {
-  "name": "vivek9patel-portfolio",
+  "name": "eslam-portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://vivek9patel.github.io/",
+  "homepage": "https://eslam-foda.vercel.app/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
