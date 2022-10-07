@@ -12,7 +12,7 @@ export class Gedit extends Component {
   }
 
   componentDidMount() {
-    emailjs.init(process.env.NEXT_PUBLIC_USER_ID);
+    emailjs.init("4Of7fDOykuvGJvpWt");
   }
 
   sendMessage = async () => {
@@ -50,7 +50,12 @@ export class Gedit extends Component {
     };
 
     emailjs
-      .send(serviceID, templateID, templateParams)
+      .send(
+        "service_6mfm5vy",
+        "service_6mfm5vy",
+        templateParams,
+        "4Of7fDOykuvGJvpWt"
+      )
       .then(() => {
         this.setState({ sending: false });
         $("#close-gedit").trigger("click");
