@@ -1,10 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-  swcMinify: true,
-  images: {
-    domains: ["cdn.shopify.com", "media.graphassets.com"],
-  },
-};
-
-module.exports = nextConfig;
+  env: {
+    BASE_URL: process.env.BASE_URL,
+  }
+}
