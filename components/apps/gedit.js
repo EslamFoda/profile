@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import $ from "jquery";
 import ReactGA from "react-ga";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser"
 const userId = process.env.NEXT_PUBLIC_USER_ID;
 export class Gedit extends Component {
   constructor() {
