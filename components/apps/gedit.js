@@ -50,7 +50,7 @@ export class Gedit extends Component {
     };
 
     emailjs
-      .send(serviceID, templateID, templateParams)
+      .send("service_6mfm5vy","template_rkne159", templateParams)
       .then(() => {
         this.setState({ sending: false });
         $("#close-gedit").trigger("click");
