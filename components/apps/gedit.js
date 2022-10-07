@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import $ from "jquery";
 import ReactGA from "react-ga";
 import emailjs from "emailjs-com";
-
+const userId = process.env.NEXT_PUBLIC_USER_ID;
 export class Gedit extends Component {
   constructor() {
     super();
@@ -10,9 +10,9 @@ export class Gedit extends Component {
       sending: false,
     };
   }
-
+  
   componentDidMount() {
-    emailjs.init("4Of7fDOykuvGJvpWt");
+    emailjs.init(userId);
   }
 
   sendMessage = async () => {
@@ -50,12 +50,7 @@ export class Gedit extends Component {
     };
 
     emailjs
-      .send(
-        "service_6mfm5vy",
-        "service_6mfm5vy",
-        templateParams,
-        "4Of7fDOykuvGJvpWt"
-      )
+      .send(serviceID, templateID, templateParams)
       .then(() => {
         this.setState({ sending: false });
         $("#close-gedit").trigger("click");
