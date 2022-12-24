@@ -215,9 +215,8 @@ function About() {
           I'm a <span className=" font-medium">self taught</span> front-end
           developer I design and develop websites and web applications using
           HTML, CSS and JavaScript. Experienced with mobile-first and responsive
-          web design, understanding of JavaScript frameworks like react , next js
-          ,I'm looking for better opportunities! ( Hit me
-          up{" "}
+          web design, understanding of JavaScript frameworks like react , next
+          js ,I'm looking for better opportunities! ( Hit me up{" "}
           <a className="text-underline" href="mailto:eslaamFodaa@gmail.com">
             <u>@eslaamFodaa@gmail.com</u>
           </a>{" "}
@@ -370,6 +369,21 @@ function Skills() {
 
 function Projects() {
   const project_list = [
+    {
+      name: "Wuilt clone",
+      date: "Dec 23, 2022",
+      link: "https://github.com/EslamFoda/theme-editor-actions",
+      description: [
+        "Website builder similar to shopify and wordpress and it's fully customizable to edit it without writing any line of code",
+      ],
+      domains: [
+        "next.js",
+        "tailwindcss",
+        "firebase",
+        "firestore",
+        "firebase auth",
+      ],
+    },
     {
       name: "Next.js E-commerce Project",
       date: "Sept 13, 2022",
