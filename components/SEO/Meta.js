@@ -20,12 +20,12 @@ export default function Meta() {
             <meta name="theme-color" content="#E95420" />
 
             /* Search Engine */
-            <meta name="image" content="images/logos/fevicon.png" />
+            <meta name="image" content="images/logos/e-logo.svg" />
             /* Schema.org for Google */
             <meta itemProp="name" content="Eslam Mohamed Portfolio - Front-end Dev" />
             <meta itemProp="description"
                 content="Eslam Mohamed's (eslam) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta itemProp="image" content="images/logos/fevicon.png" />
+            <meta itemProp="image" content="images/logos/e-logo.svg" />
             /* Twitter */
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content="eslam mohamed Portfolio - Front-end Dev" />
@@ -33,19 +33,19 @@ export default function Meta() {
                 content="Eslam Mohamed's (eslam) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="twitter:site" content="Eslam Mohamed" />
             <meta name="twitter:creator" content="Eslam Mohamed" />
-            <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
+            <meta name="twitter:image:src" content="images/logos/e-logo.svg" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
             <meta name="og:title" content="Eslam Mohamed Portfolio - Front-end Dev" />
             <meta name="og:description"
                 content="Eslam Mohamed's (eslam) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="og:image" content="images/logos/logo_1200.png" />
+            <meta name="og:image" content="images/logos/e-logo.svg" />
             <meta name="og:url" content="https://github.com/EslamFoda" />
             <meta name="og:site_name" content="Eslam Mohamed Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
 
-            <link rel="icon" href="images/logos/fevicon.svg" />
-            <link rel="apple-touch-icon" href="images/logos/logo.png" />
+            <link rel="icon" href="images/logos/e-logo.svg" />
+            <link rel="apple-touch-icon" href="images/logos/e-logo.svg" />
             <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" as="style" />
             <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"></link>
         </Head>
